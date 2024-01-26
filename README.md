@@ -61,6 +61,12 @@ Microsoft Visual Studio 2022 C++ Compliler
 
 Building instuction:
 1. Open MS Visual Studio solution Rect_intersection\Rect_intersection.sln
-2. Build Solution 
+2. Build Solution
+
+Test:
+1. Open Open MS Visual Studio solution Rect_intersection\Rect_intersection.sln
+2. Select RectTest solution
+3. Right button click - Set us Startup project
+4. Build Solution
 
 
