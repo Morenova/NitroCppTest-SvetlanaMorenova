@@ -69,4 +69,7 @@ Test:
 3. Right button click - Set us Startup project
 4. Build Solution
 
+Important Notices:
 
+1. Build can fail with erorr like 'nuget package restoring failing <pathes to packages> ' This error is caused by too long path to googletest folder ( see similar case - https://stackoverflow.com/questions/71899369/visual-studio-2019-google-test-nuget-package-restore-failing ) .
+ Solution - just move repository folder several folders higher to shorten absolute pathes. Tested successfully with checkout on path 'C:\NitroCppTest-Morenova\Rect_intersection' 
